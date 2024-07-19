@@ -96,7 +96,7 @@ struct MealDetailView: View {
                             .padding(.horizontal)
 
                         Text("Ingredients")
-                            .font(.title2)
+                            .font(.title3)
                             .fontWeight(.semibold)
                             .padding(.horizontal)
 
