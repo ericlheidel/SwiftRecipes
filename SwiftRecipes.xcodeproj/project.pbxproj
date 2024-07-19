@@ -16,6 +16,11 @@
 		00879E942C49B5D10071C9E7 /* SwiftRecipesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00879E932C49B5D10071C9E7 /* SwiftRecipesTests.swift */; };
 		00879E9E2C49B5D10071C9E7 /* SwiftRecipesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00879E9D2C49B5D10071C9E7 /* SwiftRecipesUITests.swift */; };
 		00879EA02C49B5D10071C9E7 /* SwiftRecipesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00879E9F2C49B5D10071C9E7 /* SwiftRecipesUITestsLaunchTests.swift */; };
+		00879EAD2C49B6100071C9E7 /* SwiftRecipesModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00879EAC2C49B6100071C9E7 /* SwiftRecipesModels.swift */; };
+		00879EAF2C49B9750071C9E7 /* SwiftRecipesErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00879EAE2C49B9750071C9E7 /* SwiftRecipesErrors.swift */; };
+		00879EB12C49BA290071C9E7 /* SwiftRecipesManagers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00879EB02C49BA280071C9E7 /* SwiftRecipesManagers.swift */; };
+		00879EB32C49C09F0071C9E7 /* SwiftRecipesMealListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00879EB22C49C09F0071C9E7 /* SwiftRecipesMealListView.swift */; };
+		00879EB52C49C2380071C9E7 /* SwiftRecipesMealDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00879EB42C49C2380071C9E7 /* SwiftRecipesMealDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		00879E992C49B5D10071C9E7 /* SwiftRecipesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftRecipesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00879E9D2C49B5D10071C9E7 /* SwiftRecipesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftRecipesUITests.swift; sourceTree = "<group>"; };
 		00879E9F2C49B5D10071C9E7 /* SwiftRecipesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftRecipesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		00879EAC2C49B6100071C9E7 /* SwiftRecipesModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftRecipesModels.swift; sourceTree = "<group>"; };
+		00879EAE2C49B9750071C9E7 /* SwiftRecipesErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftRecipesErrors.swift; sourceTree = "<group>"; };
+		00879EB02C49BA280071C9E7 /* SwiftRecipesManagers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftRecipesManagers.swift; sourceTree = "<group>"; };
+		00879EB22C49C09F0071C9E7 /* SwiftRecipesMealListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftRecipesMealListView.swift; sourceTree = "<group>"; };
+		00879EB42C49C2380071C9E7 /* SwiftRecipesMealDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftRecipesMealDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +112,11 @@
 				00879E7C2C49B5CE0071C9E7 /* SwiftRecipesApp.swift */,
 				00879E7E2C49B5CE0071C9E7 /* Persistence.swift */,
 				00879E832C49B5CE0071C9E7 /* ContentView.swift */,
+				00879EB42C49C2380071C9E7 /* SwiftRecipesMealDetailView.swift */,
+				00879EB22C49C09F0071C9E7 /* SwiftRecipesMealListView.swift */,
+				00879EAE2C49B9750071C9E7 /* SwiftRecipesErrors.swift */,
+				00879EB02C49BA280071C9E7 /* SwiftRecipesManagers.swift */,
+				00879EAC2C49B6100071C9E7 /* SwiftRecipesModels.swift */,
 				00879E852C49B5D00071C9E7 /* Assets.xcassets */,
 				00879E872C49B5D00071C9E7 /* SwiftRecipes.entitlements */,
 				00879E802C49B5CE0071C9E7 /* SwiftRecipes.xcdatamodeld */,
@@ -265,10 +280,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00879EB32C49C09F0071C9E7 /* SwiftRecipesMealListView.swift in Sources */,
 				00879E7D2C49B5CE0071C9E7 /* SwiftRecipesApp.swift in Sources */,
 				00879E7F2C49B5CE0071C9E7 /* Persistence.swift in Sources */,
+				00879EAD2C49B6100071C9E7 /* SwiftRecipesModels.swift in Sources */,
 				00879E842C49B5CE0071C9E7 /* ContentView.swift in Sources */,
+				00879EAF2C49B9750071C9E7 /* SwiftRecipesErrors.swift in Sources */,
+				00879EB52C49C2380071C9E7 /* SwiftRecipesMealDetailView.swift in Sources */,
 				00879E822C49B5CE0071C9E7 /* SwiftRecipes.xcdatamodeld in Sources */,
+				00879EB12C49BA290071C9E7 /* SwiftRecipesManagers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
